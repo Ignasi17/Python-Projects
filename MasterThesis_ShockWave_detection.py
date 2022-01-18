@@ -13,7 +13,7 @@ epsilon = 0.15#l'original està fet amb epsilon = 0.15
 r = 10**3.8 #radi a partir del cual comença a baixar
 
 for t in steps:
-    model = rdAe(t,'/mnt/fujinas2/mobergau/sn3d/35OC/35OC/35OC-Rw/')
+    model = rdAe(########################################)
     if t == steps[0]:
         x_grid = np.array([np.array(model['grid']['x']['znl'])[4:-4],np.array(model['grid']['x']['znc'])[4:-4],np.array(model['grid']['x']['znr'])[4:-4]]).T
         y_grid = np.array([np.array(model['grid']['y']['znl'])[4:-4],np.array(model['grid']['y']['znc'])[4:-4],np.array(model['grid']['y']['znr'])[4:-4]]).T
