@@ -54,7 +54,7 @@ timejets = []
 
 steps = np.arange(12710,12720, 10)
 for t in steps:
-    model = rdAe(t,'/mnt/fujinas2/mobergau/sn3d/35OC/35OC/35OC-Rw/') #this first iteration is just to get the grid coordinates, which are cnstants along the time.
+    model = rdAe(#############################################) #this first iteration is just to get the grid coordinates, which are cnstants along the time.
 
     thd = model ['locl'] ['thd']['data']
 
